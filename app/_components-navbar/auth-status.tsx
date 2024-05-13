@@ -7,10 +7,10 @@ export default async function AuthStatus() {
   // Create supabase server component client and obtain user session from stored cookie
   const supabase = createServerSupabaseClient();
   const {
-    data: { session },
-  } = await supabase.auth.getSession();
+    data: { user },
+  } = await supabase.auth.getUser();
 
-  if (!session) {
+  if (!user) {
     return (
       <Button asChild>
         <Link href="/login">Log in</Link>
@@ -18,7 +18,7 @@ export default async function AuthStatus() {
     );
   }
 
-  const { data, error } = await supabase.from("profiles").select().eq("id", session.user.id);
+  const { data, error } = await supabase.from("profiles").select().eq("id", user.id);
 
   if (error ?? data.length !== 1) {
     return;
