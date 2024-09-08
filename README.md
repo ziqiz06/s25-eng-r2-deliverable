@@ -55,7 +55,7 @@ You should first update your `npm` and `node` packages to the latest version by 
 `cd` into a desired destination folder, then clone the repo (preferably using SSH):
 
 ```shell
-git clone git@github.com:hcs-t4sg/s24-eng-r2-deliverable.git
+git clone git@github.com:hcs-t4sg/f24-eng-r2-deliverable.git
 ```
 
 #### Package installation
@@ -64,7 +64,7 @@ git clone git@github.com:hcs-t4sg/s24-eng-r2-deliverable.git
 
    ```bash
    # Navigate into the project directory
-   cd s24-eng-r2-deliverable
+   cd f24-eng-r2-deliverable
 
    # Open in VSCode
    code .
@@ -78,9 +78,9 @@ git clone git@github.com:hcs-t4sg/s24-eng-r2-deliverable.git
 3. Run: `npm install` (`npm i` for short)
 
    - If you get something like "command not found", you might not have `npm` installed.
-   - Make sure you're running `npm install` inside the project directory. That is, your terminal should indicate you're inside the `s24-eng-r2-deliverable` directory. If you're using MacOS (with a `zsh` terminal), this probably looks something like:
+   - Make sure you're running `npm install` inside the project directory. That is, your terminal should indicate you're inside the `f24-eng-r2-deliverable` directory. If you're using MacOS (with a `zsh` terminal), this probably looks something like:
      ```bash
-     username@some-address s24-eng-r2-deliverable % npm install
+     username@some-address f24-eng-r2-deliverable % npm install
      ```
 
 - If successful you should see something like:
@@ -126,7 +126,7 @@ git clone git@github.com:hcs-t4sg/s24-eng-r2-deliverable.git
 
 1. In your Supabase project dashboard, navigate to `SQL Editor` in the left sidebar, then click `(+) New Query` > `New blank query`. If you wish, you can rename the query from "Untitled Query" to something else by clicking the dropdown in the left sidebar.
 2. In your starter code, there is a `setup.sql` file containing a SQL script that will set up the database for you. Copy the entire contents of the file and paste it into your new query.
-3. Run the query with the button in the bottom right or by pressing `cmd` + `return`. In the results panel, you should see the message `Success. No rows returned`. If you're having issues with this, contact Eileen and Matthew (the directors of engineering)!
+3. Run the query with the button in the bottom right or by pressing `cmd` + `return`. In the results panel, you should see the message `Success. No rows returned`. If you're having issues with this, contact Eli and Itzel (the directors of engineering)!
 
 #### Run the webapp and log in
 
@@ -151,7 +151,7 @@ We gave you some example species data to seed your database! Follow similar step
 
 1. In your Supabase project dashboard, navigate to `SQL Editor` in the left sidebar, then click `(+) New Query` > `New blank query`. If you wish, you can rename the query from "Untitled Query" to something else by clicking the dropdown in the left sidebar.
 2. In your starter code, there is a `seed.sql` file containing a SQL script that will set up the database for you. Copy the entire contents of the file and paste it into your new query.
-3. Run the query with the button in the bottom right or by pressing `cmd` + `return`. In the results panel, you should see the message `Success. No rows returned`. If you're having issues with this, contact Eileen and Matthew (the directors of engineering)!
+3. Run the query with the button in the bottom right or by pressing `cmd` + `return`. In the results panel, you should see the message `Success. No rows returned`. If you're having issues with this, contact Eli and Itzel (the directors of engineering)!
 
 #### Supabase CLI Setup
 
