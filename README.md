@@ -36,7 +36,7 @@
 
 ## Introduction
 
-Welcome to _Biodiversity Hub_, the webapp for T4SG's Spring 2024 applications!
+Welcome to _Biodiversity Hub_, the webapp for T4SG's Fall 2024 applications!
 
 The project uses Next.js, a React-based framework with significant optimizations. The frontend uses `shadcn/ui`, an open-source library of UI components that are built with Radix primitives and styled with Tailwind CSS. The backend uses Supabase, an open-source Firebase alternative. The entire stack is written in Typescript to provide comprehensive typesafety across both frontend and backend.
 
