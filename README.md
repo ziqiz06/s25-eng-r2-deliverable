@@ -1,6 +1,6 @@
-# T4SG Fall 2024 Application Deliverable
+# T4SG Spring 2025 Application Deliverable
 
-- [T4SG Fall 2024 Application Deliverable](#t4sg-spring-2024-application-deliverable)
+- [T4SG Spring 2025 Application Deliverable](#t4sg-spring-2025-application-deliverable)
   - [Introduction](#introduction)
   - [Setup](#setup)
     - [Install `npm` and `node`](#install-npm-and-node)
@@ -36,7 +36,7 @@
 
 ## Introduction
 
-Welcome to _Biodiversity Hub_, the webapp for T4SG's Fall 2024 applications!
+Welcome to _Biodiversity Hub_, the webapp for T4SG's Spring 2025 applications!
 
 The project uses Next.js, a React-based framework with significant optimizations. The frontend uses `shadcn/ui`, an open-source library of UI components that are built with Radix primitives and styled with Tailwind CSS. The backend uses Supabase, an open-source Firebase alternative. The entire stack is written in Typescript to provide comprehensive typesafety across both frontend and backend.
 
@@ -55,7 +55,7 @@ You should first update your `npm` and `node` packages to the latest version by 
 `cd` into a desired destination folder, then clone the repo (preferably using SSH):
 
 ```shell
-git clone git@github.com:hcs-t4sg/f24-eng-r2-deliverable.git
+git clone git@github.com:hcs-t4sg/s25-eng-r2-deliverable.git
 ```
 
 #### Package installation
@@ -64,7 +64,7 @@ git clone git@github.com:hcs-t4sg/f24-eng-r2-deliverable.git
 
    ```bash
    # Navigate into the project directory
-   cd f24-eng-r2-deliverable
+   cd s25-eng-r2-deliverable
 
    # Open in VSCode
    code .
@@ -78,9 +78,9 @@ git clone git@github.com:hcs-t4sg/f24-eng-r2-deliverable.git
 3. Run: `npm install` (`npm i` for short)
 
    - If you get something like "command not found", you might not have `npm` installed.
-   - Make sure you're running `npm install` inside the project directory. That is, your terminal should indicate you're inside the `f24-eng-r2-deliverable` directory. If you're using MacOS (with a `zsh` terminal), this probably looks something like:
+   - Make sure you're running `npm install` inside the project directory. That is, your terminal should indicate you're inside the `s25-eng-r2-deliverable` directory. If you're using MacOS (with a `zsh` terminal), this probably looks something like:
      ```bash
-     username@some-address f24-eng-r2-deliverable % npm install
+     username@some-address s25-eng-r2-deliverable % npm install
      ```
 
 - If successful you should see something like:
