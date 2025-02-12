@@ -4,6 +4,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, Di
 import { Button } from "@/components/ui/button";
 import type { Species } from "./species-card"; // Import the Species type
 
+
 type LearnMoreProps = {
   species: Species;
   onClose: () => void;
