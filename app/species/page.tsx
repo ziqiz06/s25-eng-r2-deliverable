@@ -4,6 +4,7 @@ import { createServerSupabaseClient } from "@/lib/server-utils";
 import { redirect } from "next/navigation";
 import AddSpeciesDialog from "./add-species-dialog";
 import EditSpeciesDialog from "./editSpecies";
+import DeleteSpeciesDialog from "./deleteSpecies";
 import SpeciesCard from "./species-card";
 
 export default async function SpeciesList() {
@@ -40,6 +41,7 @@ export default async function SpeciesList() {
         <div className="flex gap-4 ml-auto">
           <AddSpeciesDialog userId={sessionId} />
           <EditSpeciesDialog userId={sessionId} scientificNames={scientificNames} />
+          <DeleteSpeciesDialog userId={sessionId} scientificNames={scientificNames} />
         </div>
       </div>
       <Separator className="my-4" />
